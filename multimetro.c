@@ -23,8 +23,8 @@ void multimetro()
 	//Caratteristiche istogramma
 	//h->SetStats(0);
 	
-    //Normalizzazione dell'istogramma 
-    h->Scale(1/h->Integral(), "width");
+ 	//Normalizzazione dell'istogramma 
+     	h->Scale(1/h->Integral(), "width");
 	
 	//Estetica dell'istogramma
 	h->SetFillColor(38);
