@@ -40,7 +40,7 @@ void multimetro()
 	 
 	//Fit gaussiano
 	TF1 *ffit = new TF1("ffit","gaus",xmin-1,xmax+1);
-    h->Fit(ffit);
+	h->Fit(ffit);
 	ffit->Draw("same");
 	
 }
